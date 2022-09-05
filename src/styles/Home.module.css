@@ -1,0 +1,56 @@
+.container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(26, 0, 124);
+	background: -moz-linear-gradient(
+		45deg,
+		rgba(26, 0, 124, 1) 0%,
+		rgba(130, 179, 191, 1) 100%
+	);
+	background: -webkit-linear-gradient(
+		45deg,
+		rgba(26, 0, 124, 1) 0%,
+		rgba(130, 179, 191, 1) 100%
+	);
+	background: linear-gradient(
+		45deg,
+		rgba(26, 0, 124, 1) 0%,
+		rgba(130, 179, 191, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a007c",endColorstr="#82b3bf",GradientType=1);
+}
+
+.loginForm {
+	background-color: #fff;
+	border-radius: 0.25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+	padding: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.loginButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	padding: 0.5rem;
+	background-color: #181717;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 0.25rem;
+}
+
+.loginButton > svg {
+	height: 1rem;
+}
+
+.loginButton > p {
+	font-weight: 700;
+}
