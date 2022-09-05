@@ -43,6 +43,7 @@ model user {
   email         String?   @unique(map: "User_email_key")
   emailVerified DateTime?
   image         String?
+  verified      Boolean   @default(false)
   account       account[]
   session       session[]
 }
